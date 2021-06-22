@@ -6,4 +6,6 @@ This repository contains code which parses given file to CSV
  DynamoDb
  Api GateWay  
  
- This piece of code picks get the required user id in the API, taking user id as the key, it queries the dynamoDB, fills all the required information in a CSV which corresponds to the USERID.
+ This piece of code picks get the required user id in the API, taking user id as the key, it queries the dynamoDB, fills all the required information in a CSV which corresponds to the USERID.  
+ 
+ lambdaUpdate.sh - A shell script which updates the lambda every time it triggers.(It needs a zip file to gets updated)
